@@ -26,6 +26,7 @@ const App = () => {
     </Routes>
 
     // this is a new test update
+    // this is a new test update 2
   );
 };
 
