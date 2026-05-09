@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home-hero">
       <h1>Notes</h1>
       <p className="home-tagline">
-        A simple place to do xyz.
+        A simple place to do xyz2.
       </p>
       {token && user ? (
         <div className="home-actions">
