@@ -1,4 +1,4 @@
-const DEFAULT_API = "http://backend_test.shipr.com:3001";
+const DEFAULT_API ="http://backend_test.shipr.com:3001";
 
 export function getApiBase(): string {
   return import.meta.env.VITE_API_URL?.replace(/\/$/, "") ?? DEFAULT_API;
