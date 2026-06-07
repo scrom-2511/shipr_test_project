@@ -1,0 +1,14 @@
+{
+    "install_commands": [
+        "npm install"
+    ],
+    "build_commands": [
+        "npx tsc"
+    ],
+    "run_commands": [
+        "node index.js"
+    ],
+    "dist_dir": "dist",
+    "include": [],
+    "exclude": []
+}
