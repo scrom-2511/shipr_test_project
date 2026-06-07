@@ -9,6 +9,6 @@
         "node index.js"
     ],
     "dist_dir": "dist",
-    "include": [],
+    "include": ["test_dir"],
     "exclude": []
 }
