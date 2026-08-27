@@ -1,4 +1,4 @@
-const DEFAULT_API ="http://localhost:5173";
+const DEFAULT_API ="https://backend_test.shipr.dev";
 
 export function getApiBase(): string {
   return import.meta.env.VITE_API_URL?.replace(/\/$/, "") ?? DEFAULT_API;
